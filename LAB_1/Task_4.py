@@ -1,7 +1,7 @@
-def salary(s):
+def salary(sal):
     HRA = s * 0.1
     DA = s * 0.05
     return s + HRA + DA
-s = float(input("Enter basic salary: "))
-total_salary = salary(s)
+sal = float(input("Enter basic salary: "))
+total_salary = salary(sal)
 print("Total salary:", total_salary)
